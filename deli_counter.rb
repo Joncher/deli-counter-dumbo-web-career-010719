@@ -6,7 +6,7 @@ def line(katz_deli)
   if katz_deli.size > 0
     jeff =""
     jeff = katz_deli.collect do | name |
-      "#{1+katz_deli.index(name)}. #{name}"
+      #{1+katz_deli.index(name)} #{name}
     end
     puts "The line is currently: #{jeff}"
   end
