@@ -5,7 +5,7 @@ def line(katz_deli)
   end
   if katz_deli.size > 0
     katz_deli.collect do | name |
-      #{1+katz_deli.index(name)}. #{name}
+      
     end
   end
 end
