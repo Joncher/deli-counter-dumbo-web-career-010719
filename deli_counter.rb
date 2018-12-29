@@ -8,7 +8,8 @@ def line(katz_deli)
     jeff = katz_deli.collect do | name |
       "#{1+katz_deli.index(name)}. #{name}"
     end
-    puts "The line is currently: #{\jeff\}"
+    binding.pry
+    puts "The line is currently: #{jeff}"
   end
 end
 
