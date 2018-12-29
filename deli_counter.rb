@@ -6,9 +6,8 @@ def line(katz_deli)
   if katz_deli.size > 0
     katz_deli.collect do | name |
       "#{1+katz_deli.index(name)}. #{name}"
-      binding.pry
     end
-    
+    puts katz_deli
   end
 end
 
