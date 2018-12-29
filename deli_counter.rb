@@ -9,6 +9,7 @@ def line(katz_deli)
       " #{1+katz_deli.index(name)}. #{name}"
     end
     jeff.join
+    binding.pry
     puts "The line is currently: #{jeff}"
   end
 end
