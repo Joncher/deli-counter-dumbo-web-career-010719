@@ -19,7 +19,9 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.size > 0
-      katz_deli.shift
+    serving = ""
+    serving = katz_deli.shift
+    return "Now serving: #{serving}"
   else return "There is nobody waiting to be served!"  
   
 end
