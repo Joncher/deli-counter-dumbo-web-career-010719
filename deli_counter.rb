@@ -7,6 +7,7 @@ def line(katz_deli)
     katz_deli.collect do | name |
       "#{1+katz_deli.index(name)}. #{name}"
     end
+    binding.pry
   end
 end
 
