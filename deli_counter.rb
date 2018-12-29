@@ -4,9 +4,9 @@ def line(katz_deli)
     puts "The line is currently empty."   
   end
   if katz_deli.size > 0
-    jeff =""
+    jeff =[]
     jeff = katz_deli.collect do | name |
-      1+katz_deli.index(name)
+      "#{1+katz_deli.index(name)}. #{name}"
     end
     puts "The line is currently: #{jeff}"
   end
