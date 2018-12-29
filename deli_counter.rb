@@ -5,6 +5,7 @@ def line(katz_deli)
   end
   if katz_deli.size > 0
     katz_deli.collect do | name |
+      binding.pry
       1+katz_deli.index(name)
     end
   end
